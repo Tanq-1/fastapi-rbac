@@ -1,0 +1,14 @@
+[project]
+name = "fastapi-rbac"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "fastapi>=0.136.1",
+    "pwdlib[argon2]>=0.3.0",
+    "pyjwt>=2.12.1",
+    "python-multipart>=0.0.28",
+    "sqlmodel>=0.0.38",
+    "uvicorn>=0.47.0",
+]
